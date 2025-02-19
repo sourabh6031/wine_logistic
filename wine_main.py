@@ -6,8 +6,8 @@ from sklearn.preprocessing import StandardScaler
 
 
 df = pd.read_csv("wine.csv")
-st.title("Let's make a model for the wine dataset")
-st.subheader("Sample Dataframe for references")
+st.title("Let's make a prediction for the wine dataset...")
+st.subheader("Sample Dataframe for reference")
 
 st.dataframe(df.iloc[:,1:-1]) 
 
